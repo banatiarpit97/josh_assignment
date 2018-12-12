@@ -1,0 +1,26 @@
+footer{
+    background-image: url("./images\ required\ in\ html/footer_bg.jpg");
+    height: 10%;
+    background-size: cover;
+    overflow: hidden;
+}
+footer .link-container{
+    padding: 2% 1% 6% 1%;
+    float: left;
+}
+.link-container:first-child{
+    padding-left: 0;
+}
+.link-container:last-child{
+    padding-right: 0;
+}
+footer a {
+    color: #eae8e8;
+}
+.copyright{
+    float: right !important;
+    font-size: 0.8em;
+}
+.copyright a{
+    line-height: 22px;
+}

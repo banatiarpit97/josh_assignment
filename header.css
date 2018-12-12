@@ -1,0 +1,33 @@
+header{
+    width: 100%;
+    height: 70px;
+    background-image: url("./images\ required\ in\ html/header_bg01.png");
+    background-size: cover;
+    box-shadow: 1px 4px 6px rgba(0,0,0,.2);
+}
+
+#header{
+    width: 80%;
+    margin: auto;
+}
+#logo{
+    float: left;
+    height: 50px;
+    margin: 10px 60px;
+}
+.header_btn:hover{
+    background-color: #cacacb;
+}
+.header_btn:hover p{
+    color: white;
+}
+.header_btn{
+    line-height: 30px;
+    padding: 20px;
+    float: left;
+}
+.header_btn p{
+    margin: 0;
+    color: grey;
+    font-size: 1.1em;
+}
